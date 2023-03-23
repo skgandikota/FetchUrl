@@ -11,7 +11,7 @@ try {
     .then((response) => {
       core.setOutput("status", response.status);
       core.setOutput("headers", JSON.stringify(response.headers.raw()));
-      return response.text();
+      return response.json();
     })
     .then((body) => {
       core.setOutput("body", body);
