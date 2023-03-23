@@ -1,4 +1,4 @@
-name: 'Fetch Api'
+name: 'FetchApi'
 description: 'Fetch Api action performs a generic Fetch API request and returns the response code, response body, and whether the request was successful or not. Beauty of the action is all submissions are not stored or logged. its absolutly safe and secure'
 inputs:
 
