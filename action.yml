@@ -1,5 +1,5 @@
 name: 'FetchUrl'
-description: 'FetchUrl action performs a generic Fetch API request and returns the response code, response body, and whether the request was successful or not. Beauty of the action is all submissions are not stored or logged. its absolutly safe and secure'
+description: 'FetchUrl action performs a generic Fetch API request and returns the response code, response body, and headers.'
 inputs:
 
   url:
