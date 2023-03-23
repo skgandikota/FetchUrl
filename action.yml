@@ -1,0 +1,34 @@
+name: 'Fetch Api'
+description: 'Fetch Api action performs a generic Fetch API request and returns the response code, response body, and whether the request was successful or not. Beauty of the action is all submissions are not stored or logged. its absolutly safe and secure'
+inputs:
+
+  url:
+    description: 'The URL to fetch.'
+    required: true
+
+  method:
+    description: 'The HTTP method to use (GET, POST, PUT, DELETE, etc.)'
+    required: false
+    default: 'GET'
+
+  headers:
+    description: 'A JSON string of headers to include in the request'
+    required: false
+    default: '{}'
+
+  body:
+    description: 'The body to send with the request.'
+    required: false
+    default: 'null'
+
+outputs:
+  status:
+    description: 'The HTTP response status code'
+  headers:
+    description: 'The HTTP response headers'
+  body:
+    description: 'The HTTP response body'
+
+runs:
+  using: 'node16'
+  main: 'index.js'

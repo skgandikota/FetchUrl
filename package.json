@@ -1,0 +1,25 @@
+{
+  "name": "fetch",
+  "version": "1.0.0",
+  "description": "Github Action to Fetch Api in the most generic way",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skgandikota/fetch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skgandikota/fetch/issues"
+  },
+  "homepage": "https://github.com/skgandikota/fetch#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "node-fetch": "^2.6.7"
+  }
+}
