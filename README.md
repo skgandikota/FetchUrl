@@ -35,7 +35,7 @@ jobs:
     steps:
       - name: GET REQUEST SAMPLE
         id: getRequest
-        uses: skgandikota/FetchUrl@v1.1
+        uses: skgandikota/FetchUrl@v1.2
         with:
           url: "https://jsonplaceholder.typicode.com/posts/1"
 
@@ -83,7 +83,7 @@ jobs:
     steps:
        - name: POST REQUEST SAMPLE
         id: postRequest
-        uses: skgandikota/FetchUrl@v1.1
+        uses: skgandikota/FetchUrl@v1.2
         with:
           url: "https://jsonplaceholder.typicode.com/posts"
           method: POST
