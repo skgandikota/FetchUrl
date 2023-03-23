@@ -5,7 +5,6 @@ try {
   const url = core.getInput("url");
   const method = core.getInput("method") || "GET";
   const headers = JSON.parse(core.getInput("headers")) || {};
-  console.log(core.getInput("body") ); 
   const body = (method !== 'GET' && method !== 'HEAD') ? core.getInput("body") : null;
 
   fetch(url, { method, headers, body })
