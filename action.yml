@@ -1,5 +1,9 @@
 name: 'FetchUrl'
 description: 'FetchUrl action performs a generic Fetch API request and returns the response code, response body, and headers.'
+branding:
+  icon: 'award'
+  color: 'green'
+  
 inputs:
 
   url:
